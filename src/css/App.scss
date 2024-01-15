@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Avenir Next Condensed";
+  src: url("../fonts/Avenir Next Condensed.ttf.ttf");
+}
+
+@media (min-width: 1280px) {
+  .claim {
+    max-width: none;
+  }
+}
+
+
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #4a5376;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6273b1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #05070E;
+}
+
+.App {
+  font-family: "Avenir Next Condensed";
+}
+
+body {
+  font-family: "Avenir Next Condensed" !important;
+}
+
+#root {
+  height: 100vh;
+}
+
+.MuiSvgIcon-root {
+  font-size: 2.8rem !important;
+}
+
+@media only screen and (max-width: 610px) {
+  .MuiSvgIcon-root {
+    // color: #8d909a;
+    font-size: 2rem !important;
+  }
+
+  .MuiIconButton-root {
+    padding: 0px 12px 6px 12px !important;
+    color: #8d909a !important;
+  }
+}
+
+
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root-focus .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border: none;
+}

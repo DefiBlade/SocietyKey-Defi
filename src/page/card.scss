@@ -1,0 +1,431 @@
+.coin-total {
+  font-family: "Avenir Next Condensed" !important;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 10px 8px;
+  background-color: #0b1324;
+  border: none;
+}
+
+// .coin-total:hover {
+//   opacity: 1;
+// }
+
+.give-modal {
+  background-color: #0b1324;
+}
+
+.coin-img {
+  padding: 0px;
+}
+
+.coin-img1 {
+  padding: 10px;
+}
+
+.opacity {
+  opacity: 0.7;
+}
+
+.coin-content {
+  color: #ffffff !important;
+  padding-left: 30px;
+  width: 100%;
+}
+
+.coin-number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+.coin-gift {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  font-size: 19px;
+  letter-spacing: 0.1em;
+  color: #7f95be;
+}
+
+.coin-button-group {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px 0px 0px;
+}
+
+.coin-img-coin {
+  width: 90.5px;
+  height: 90px;
+}
+
+.coin-number-symbol {
+  width: 9px;
+  height: auto;
+}
+
+.coin-number-contract {
+  width: 20px;
+  height: 20px;
+}
+
+.coin-button-receive {
+  font-size: 1.3em;
+  // width: 145px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.2em;
+  background-color: #243954;
+  color: #72aee8;
+  // font-weight: bold;
+  margin: 0px 5px;
+  padding: 10px 9px;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+
+  // margin: 0px;
+  // padding: 0;
+  // border: none;
+  // outline: none;
+  // background-color: transparent;
+}
+
+.coin-button-or {
+  font-size: 18px;
+  margin: 0px 2px;
+}
+
+.coin-button-gift {
+  font-size: 1.3em;
+  // width: 145px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.3em;
+  background-color: #243954;
+  color: #72aee8;
+  // font-weight: bold;
+  margin: 0px 5px;
+  padding: 10px 9px;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+
+}
+
+#amount-label{
+  color: #e74c3c;
+  font-size: 15px;
+}
+
+.stake-title {
+  font-size: 20px;
+  color: #d0d1d5;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  @media only screen and (max-width: 600px) {
+   font-size: 16px;
+  }
+}
+
+.circle      {
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: solid 2px #72aee8;
+  background-color: transparent;
+  color: #72aee8;
+  text-align: center;
+  display: block;
+  
+  font-family: Calibri;
+  font-size: 13px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+.card-modal-button {
+  background-color: #7e818d !important;
+}
+
+.card-modal-button-approve {
+  background-color: #7e818d !important;
+  padding: 6px 13px 4px 10px !important;
+  @media only screen and (max-width: 600px) {
+    padding: 6px 6px 4px 6px !important;
+    font-size: 11px !important;
+    margin-right: 12px !important;
+   }
+}
+
+.card-modal-button-approve-noble {
+  background-color: #7e818d !important;
+  padding: 6px 13px 4px 10px !important;
+  @media only screen and (max-width: 600px) {
+    padding: 6px 6px 4px 6px !important;
+    font-size: 11px !important;
+    margin-right: 0px !important;
+   }
+}
+
+.card-modal-button-approve-text {
+padding: 0px 0px 0px 10px;
+@media only screen and (max-width: 600px) {
+  padding: 0px 0px 0px 4px;
+
+ }
+}
+
+.card-modal-button-a {
+  background-color: #7e818d !important;
+}
+
+.coin-button-group-img {
+  width: 17px;
+  height: 24px;
+}
+
+.coin-button-group-symbol {
+  width: 8px;
+  height: 13.6px;
+  margin: 0px 4px;
+}
+
+.margin-top-device {
+  margin-top: 0px !important;
+}
+
+@media only screen and (max-width: 610px) {
+  .margin-top-device {
+    margin-top: 0px !important;
+  }
+
+  .level-text-align {
+    text-align: right !important;
+  }
+
+  .coin-number-contract {
+    width: 9px !important;
+    height: auto !important;
+  }
+
+
+  .coin-img {
+    margin-top: 5px !important;
+  }
+
+  .card-title{
+    font-size: 0.63em !important;
+  }
+
+  .card-title1{
+    font-size: 0.7em !important;
+  }
+
+  .card-sub-title {
+    // font-size: 0.5935em !important;
+    font-size: 0.6em !important;
+  }
+
+  .MuiSvgIcon-root {
+    font-size: 2rem !important;
+  }
+
+  .coin-total {
+    padding: 10px 12px;
+    overflow: auto;
+  }
+
+  .coin-img {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .coin-img-coin {
+    width: 70.5px;
+    height: 70px;
+  }
+
+  .coin-content {
+    padding-left: 12px;
+  }
+
+  .coin-number {
+    padding-top: 9px;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+  }
+
+  .coin-number-symbol {
+    width: 6px;
+    height: auto;
+  }
+
+  .coin-number-contract {
+    width: 15px;
+    height: 15px;
+  }
+
+  .coin-gift {
+    padding-top: 9px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+
+  .coin-button-group {
+    padding: 10px 0px 0px 0px;
+  }
+
+  .coin-button-group-img {
+    width: 12px;
+    height: 16px;
+  }
+
+  .coin-button-group-symbol {
+    width: 6px;
+    height: 11px;
+    margin: 0px 4px;
+  }
+
+  .coin-button {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    margin: 0px 3px;
+    padding: 2px 6px;
+  }
+
+  .coin-button-receive {
+    font-size: 10px;
+    width: 100%;
+    padding: 6px 6px;
+    margin: 0px 2px;
+  }
+
+  .coin-button-receive1 {
+    width: 72px !important;
+  }
+
+  .coin-button-receive2 {
+    width: 100% !important;
+  }
+
+  .coin-button-or {
+    font-size: 11px;
+    margin: 0px 1px;
+  }
+
+  .coin-button-gift {
+    font-size: 10px;
+    width: 100%;
+    padding: 6px 6px;
+    margin: 0px 2px;
+    letter-spacing: 0.2em;
+  }
+
+}
+
+@media screen and (max-width: 720px) {
+  .margin-top-device {
+    margin-top: 0px !important;
+  }
+
+  .level-text-align {
+    text-align: right !important;
+  }
+
+
+  .coin-number-contract {
+    width: 9px !important;
+    height: auto !important;
+  }
+
+  .coin-img {
+    margin-top: 5px !important;
+  }
+
+  .card-title{
+    font-size: 0.8em !important;
+  }
+
+  .card-title1{
+    font-size: 0.7em !important;
+  }
+
+  .card-sub-title {
+    font-size: 0.6em !important;
+  }
+
+  .give-modal {
+    width: calc(100% - 20px) !important;
+    background-color:#0b1324 !important;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .margin-top-device {
+    margin-top: 0px !important;
+  }
+
+  .level-text-align {
+    text-align: right !important;
+  }
+
+  
+  .coin-number-contract {
+    width: 9px !important;
+    height: auto !important;
+  }
+  
+  .coin-img {
+    margin-top: 5px !important;
+  }
+
+  .card-title{
+    font-size: 0.63em !important;
+  }
+
+  .card-title1{
+    font-size: 0.7em !important;
+  }
+
+  .card-sub-title {
+    // font-size: 0.5935em !important;
+    font-size: 0.6em !important;
+  }
+
+  .coin-button-group-symbol {
+    width: 4px;
+    height: 7px;
+    margin: 0px 2px;
+  }
+
+  .coin-number-contract {
+    width: 12px;
+    height: 12px;
+  }
+
+}

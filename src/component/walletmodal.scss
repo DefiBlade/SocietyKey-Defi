@@ -1,0 +1,123 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .paper {
+    @media screen and (max-width: 720px) {
+      width: calc(100% - 20px);
+    }
+
+    width: 500px;
+    outline: none;
+
+    .heading {
+      width: 100%;
+      height: 60px;
+      background: black;
+      display: flex;
+      align-items: center;
+      color: white;
+      text-transform: uppercase;
+      font-family: 'Avenir Next Condensed';
+      font-weight: 600;
+
+      &>img {
+        height: 36px;
+        margin-left: 36px;
+        margin-right: 26px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    .paper .heading {
+      justify-content: center;
+    }
+
+    .paper .heading>img {
+      display: none;
+    }
+
+    .content {
+      padding: 10px;
+    }
+  }
+
+  .content {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0b1324;
+    border-radius: 20px;
+
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: #ffffff !important;
+      padding: 45px 10px !important;
+      margin-bottom: 10px;
+      height: 72px;
+      text-transform: none;
+      font-family: 'Avenir Next Condensed';
+
+      font-size: 22px;
+      border: 2px solid #123173;
+      border-radius: 12px;
+      background-color: #0b1324;
+
+      &.selected {
+        border: 2px solid #123173;
+      }
+
+      &:hover {
+        background-color: #0b1324;
+      }
+
+      img {
+        height: 50px;
+        margin-right: 20px;
+      }
+
+      .inner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        letter-spacing: 0;
+        line-height: 24px;
+        font-family: 'Avenir Next Condensed';
+
+        font-weight: 500;
+
+        &>small {
+          margin-top: 5px;
+          font-weight: 400;
+          color: #ffffff;
+          font-size: 16px;
+        }
+
+        @media screen and (max-width: 720px) {
+          // display: none;
+        }
+      }
+
+      &:last-child {
+        // margin-top: 10px;
+        border-radius: 10px;
+      }
+    }
+
+    .disconnect {
+      font-size: 16px;
+      font-weight: 500;
+      margin-top: 10px;
+      font-family: 'Avenir Next Condensed';
+      border: 1px solid #7e818d;
+      border-radius: 0;
+      padding: 12px 20px !important;
+      height: initial;
+    }
+  }
+}

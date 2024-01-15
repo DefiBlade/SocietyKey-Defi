@@ -1,0 +1,133 @@
+// .home-total {
+//   // background-color: #0b1127;
+//   background-image: linear-gradient(#05070E,
+//       #141C3A), url("../img/background.png");
+//   ;
+//   background-repeat: repeat-x;
+//   height: 87.5vh;
+//   display: flex;
+//   padding-top: 30px;
+// }
+
+// .home-title {
+//   font-family: "Avenir Next Condensed" !important;
+//   display: flex;
+//   justify-content: center;
+//   font-size: 80px;
+//   letter-spacing: 0.3em;
+//   color: #e2ba44;
+//   margin: 0;
+// }
+
+// .home-logos {
+//   display: flex;
+//   justify-content: center;
+//   margin: 52px 0px;
+// }
+
+// .home-logo {
+//   width: 350px;
+//   height: 350px;
+// }
+
+// @media only screen and (max-width: 610px) {
+//   .home-title {
+//     font-size: 40px;
+//   }
+
+//   .home-logos {
+//     margin: 60px 0px;
+//   }
+
+//   .home-logo {
+//     width: 170px;
+//     height: 170px;
+//   }
+
+//   .home-total {
+//     padding: 69px 0px;
+//   }
+
+//   .home-total {
+//     height: 87.5vh;
+//     padding-top: 90px;
+//   }
+// }
+
+.home-total {
+  background-image: linear-gradient(#04070E,
+      #060913, #151c39), url("../img/background.png");
+  background-repeat: repeat-x;
+  height: 100vh;
+  padding-top: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.home-logos {
+  width: 80%;
+}
+
+@media only screen and (min-width: 320px) {
+  .home-logos {
+    width: 90% !important;
+  }
+  .home-total{
+    padding-top: 25vh;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .home-logos {
+    width: 85% !important;
+  }
+  .home-total{
+    padding-top: 22vh;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .home-logos {
+    width: 59% !important;
+  }
+  .home-total{
+    padding-top: 21vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .home-logos {
+    width: 50% !important;
+  }
+  .home-total{
+    padding-top: 20vh;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .home-logos {
+    width: 42% !important;
+  }
+  .home-total{
+    padding-top: 19vh;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .home-logos {
+    width: 35% !important;
+  }
+  .home-total{
+    padding-top: 18vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .home-logos {
+    width: 33% !important;
+  }
+  .home-total{
+    padding-top: 18vh;
+  }
+}

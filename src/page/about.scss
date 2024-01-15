@@ -1,0 +1,319 @@
+.level-active {
+  color:#2f8af5;
+}
+
+.nobility {
+  list-style-type: none;
+  color: #c5c5c5;
+  padding: 0px;
+  margin: 0px;
+  border-bottom: solid 1px #423f3f;
+  padding-bottom: 10px;
+}
+
+.nobility li {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  cursor: pointer;
+}
+
+#myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: brightness(80%)
+}
+
+.claims {
+  font-family: 'Avenir Next Condensed' !important;
+  // background-color: #0b1127;
+  // background: url("../img/bg_video.mov");
+  // background-repeat: repeat-x;
+  // background: linear-gradient(#04070E,
+  //     #060913, #151c39), url("../img/bg_video.mov");
+  // background-repeat: repeat-x;
+}
+
+button {
+  font-family: 'Avenir Next Condensed' !important;
+}
+
+.claim {
+  padding-top: 15vh;
+  padding-bottom: 20px;
+  margin: 0 auto !important;
+}
+
+.claim-gifts-under {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d0d1d5;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+.claim-gifts-title-name {
+  font-size: 20px;
+  padding: 15px 0px 10px;
+  color: #d0d1d5;
+  letter-spacing: 0.1em;
+}
+
+// .claim-content {
+//   margin-bottom: 40px;
+// }
+
+.connects-wallet {
+  display: flex;
+  justify-content: center;
+}
+
+.connects-button {
+  color: #72AEE8 !important;
+  font-size: 20px !important;
+  letter-spacing: 0.1em !important;
+}
+
+.connects-button-refresh {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.total-balance {
+  padding-top: 10px;
+}
+
+.balance-title {
+  display: flex;
+  justify-content: center;
+  color: #72AEE8 !important;
+  font-size: 30px;
+  margin: 0px;
+  letter-spacing: 0.1em;
+}
+
+.balance-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  // color: #d0d1d5;
+  color: #ffffff;
+}
+
+.balance-number-money {
+  padding-top: 2px;
+}
+
+.gifts-title {
+  display: flex;
+  justify-content: center;
+  // color: #383d4e;
+  color: #838487;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+}
+
+.gifts-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d0d1d5;
+  font-size: 33px;
+  letter-spacing: 0.1em;
+}
+
+p {
+  margin: 0px;
+  font-family: 'Avenir Next Condensed' !important;
+}
+
+.MuiTypography-body1 {
+  line-height: 1.2 !important;
+}
+
+.balance-number-img {
+  width: 20px;
+  height: 36px;
+  margin-left: 5px;
+}
+
+.gifts-number-img {
+  width: 15px;
+  height: 26px;
+  margin-left: 3px;
+}
+
+@media only screen and (max-width: 610px) {
+  .connects-button {
+    width: fit-content;
+    font-size: 13px !important;
+    letter-spacing: 0.1em !important;
+  }
+
+  .connects-button-refresh {
+    width: 13px;
+    height: 13px;
+    margin-left: 10px;
+  }
+
+  .balance-title {
+    font-size: 18px;
+    letter-spacing: 0.1em;
+  }
+
+  .balance-number {
+    font-size: 37px;
+  }
+
+  .balance-number-money {
+    padding-top: 6px;
+  }
+
+  .balance-number-img {
+    width: 15px;
+    height: 26px;
+    margin-left: 2px;
+  }
+
+  .gifts-title {
+    font-size: 17px;
+    letter-spacing: 0.1em;
+  }
+
+  .gifts-number {
+    font-size: 27px;
+    letter-spacing: 0.1em;
+  }
+
+  .gifts-number-money {
+    padding-top: 4px;
+  }
+
+  .gifts-number-img {
+    width: 11px;
+    height: 19px;
+    margin-left: 1px;
+  }
+
+  .claim-gifts-title-name {
+    font-size: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 615px){
+
+  .claim-gifts-under {
+    font-size: 18px ;
+  }
+
+}
+
+@media only screen and (max-width: 370px) {
+  .tools-img {
+    width: 37px;
+    height: 28px;
+  }
+
+  .title {
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    margin: 20px 15px;
+  }
+
+  .claim-gifts-under {
+    font-size: 15px ;
+  }
+
+  .connects-button-refresh {
+    width: 11px;
+    height: 11px;
+    margin-left: 10px;
+  }
+
+  .coin-img-coin {
+    width: 47.1px;
+    height: 47px;
+  }
+
+  .coin-number {
+    padding-top: 9px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+
+  .coin-number-symbol {
+    width: 5px;
+    height: 9px;
+    margin-left: 1px;
+  }
+
+  .coin-gift {
+    padding-top: 9px;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+  }
+
+  .coin-button-group-img {
+    width: 9px;
+    height: 13px;
+  }
+
+  .coin-button-receive {
+    font-size: 7px;
+    width: 65.08px;
+    padding: 2px 6px;
+    margin: 0px 2px;
+  }
+
+  .coin-button-or {
+    font-size: 9px;
+    margin: 0px 1px;
+  }
+
+  .coin-button-gift {
+    font-size: 7px;
+    width: 65.08px;
+    padding: 2px 6px;
+    margin: 0px 2px;
+    letter-spacing: 0.2em;
+  }
+
+  .claim-gifts-title-name {
+    font-size: 10px;
+  }
+
+  .connects-button {
+    font-size: 10px !important;
+  }
+
+  .balance-title {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+  }
+
+  .balance-number {
+    font-size: 30px;
+  }
+
+  .balance-number-money {
+    padding-top: 0px;
+  }
+
+  .balance-number-img {
+    width: 12px;
+    height: 21px;
+    margin-left: 2px;
+  }
+}

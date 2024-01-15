@@ -1,0 +1,34 @@
+Test Net:
+Society Coin: 0x95E194585777d73E3314D4480464d7529A64cD23
+Society Key: 0x0719AB01B205d3c5611983fa31259a68717F3b75
+Staking: 0x97a25ba3169DdD4C0100509d5CA0E35350a6Cf03
+
+
+Main net polygon network:
+Owner: 0x0222fa1db4f030903bb685ba6a6294f3ece7fbdd
+=============================================================
+SocietyCoin: 0xb8a4910CAccF29c08Eb74Dc80903624a884cfdF9
+SocietyNoble: 0x48E709830383905776406F9f34d81Ce76c9A77A6
+SocietyKey: 0x8EA2B5dedc8aE2232C95eB36A46665F7765e3C23
+==============*Staking*======================================
+Staking_NTScty:0xe1f9d3eeb20731dba200ecc59f8599ec794bd58b
+Staking_SctyH2O:0x97cf87a708b32a2782921d2b903bd5bc644d3236
+==============*POS*==========================================
+SocietyH2O:0xa38867248b2d3a200aab2f34b575d140ecb713c7
+NeonTigerSociety:0xcc5ccc91c37abd2bb185a5f18c1b0b7701b9a28c
+=============================================================
+==============*POS Stack*====================================
+LV1NobleStack:0xe439eeab4dabbe3c87438071d6a95a3c7a3bccc2
+LV2NobleStack: 0xeb46f049100009f716c01384a232629a96368e3c
+LV3NobleStack:0x680d71f4717e8ae0a7c833c1818caa8db1d1a4e7
+LV4NobleStack:0x8bc2c67ac12b7d2e118d3203ed103ed434acc5f3
+==============*Stack Noble Stack*=============================
+StackLv1Noblestack: 0x6b88c762248ca39171b8704a7f1fb7049ed6eec4
+StackLv2Noblestack: 0x163fb800667bd3e755b564cd9acee3e40bfa9bbc
+StackLv3Noblestack: 0x199d22cec96ff6797a9d2b3ecf88ab11fb89b53d
+StackLv4Noblestack:0x1827980dc2dfca059b2b2959045e08329f7ef7cf
+==============*P2P Swap*=======================================
+P2pSwapLv1Noblestack: 0x24b7285ae2ca9f28820b574bf798edab724824db
+P2pSwapLv2Noblestack: 0x0d17bda0a93b1cccadce395078a930f13faae661
+P2pSwapLv3Noblestack: 0x68d0cd18ee45b3667d4630820df55879b1f2ee02
+P2pSwapLv4Noblestack: 0x765fb2fb7d571b4d4e4972b89bdcc26d4f4a52ad
